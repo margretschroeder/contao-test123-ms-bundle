@@ -1,7 +1,7 @@
 {
     "name": "margretschroeder/contao-test123-ms-bundle",
     "type": "contao-bundle",
-    "description": "Test für Margret von Contao 4 bundles",
+    "description": "Test für Margret von Contao 4 bundles, V2",
     "license": "LGPL-3.0-or-later",
     "authors": [
         {
@@ -11,8 +11,9 @@
     ],
     "require": {
         "php": "^5.6 || ^7.0",
-        "contao/core-bundle": "4.4.*",
+        "contao/core-bundle": "^4.7.*",
         "symfony/framework-bundle": "^3.3"
+        
     },
     "conflict": {
         "contao/core": "*",
@@ -28,16 +29,16 @@
         "symfony/phpunit-bridge": "^3.2"
     },
     "extra": {
-        "contao-manager-plugin": "MargretSchroeder\\ContaoTest123MsBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "Margretschroeder\\ContaoTest123MsBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
-            "MargretSchroeder\\ContaoTest123MsBundle\\": "src/"
+            "Margretschroeder\\ContaoTest123MsBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MargretSchroeder\\ContaoTest123MsBundle\\Tests\\": "tests/"
+            "Margretschroeder\\ContaoTest123MsBundle\\Tests\\": "tests/"
         }
     },
     "support": {
