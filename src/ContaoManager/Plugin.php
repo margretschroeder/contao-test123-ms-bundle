@@ -24,7 +24,7 @@ class Plugin implements BundlePluginInterface
     }
 	
 	 */
-	public function getBundles(ParserInterface $parser): array
+	public function getBundles(ParserInterface $parser)
     {
         return [
             BundleConfig::create(ContaoTest123MsBundle::class)
